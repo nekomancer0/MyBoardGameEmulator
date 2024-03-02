@@ -1,0 +1,67 @@
+.context {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.context .col {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.context .col .item {
+  border: 1px solid black;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+}
+.context .col .item.blue {
+  background-color: rgb(77, 77, 204);
+}
+.context .col .item.red {
+  background-color: rgb(204, 77, 94);
+}
+.context .col .item.wall {
+  background-color: black;
+}
+.context .col .item.must {
+  background-color: violet;
+}
+.context .col .item.power {
+  background-color: rgb(238, 238, 149);
+}
+.context .col .item .red_player {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(204, 77, 94);
+  border: 1px solid red;
+  border-radius: 50%;
+}
+.context .col .item .blue_player {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(77, 77, 204);
+  border: 1px solid blue;
+  border-radius: 50%;
+}
+
+.select-color {
+  border: 1px solid black;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+}
+.select-color.blue {
+  background-color: rgb(77, 77, 204);
+}
+.select-color.red {
+  background-color: rgb(204, 77, 94);
+}
+.select-color.wall {
+  background-color: black;
+}
+.select-color.must {
+  background-color: violet;
+}
+.select-color.power {
+  background-color: rgb(238, 238, 149);
+}/*# sourceMappingURL=styles.css.map */
