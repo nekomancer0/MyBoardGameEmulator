@@ -106,7 +106,7 @@ var BoardGame = /** @class */ (function () {
     };
     return BoardGame;
 }());
-var game = new BoardGame(14, 22);
+var game = new BoardGame(14, 22,true);
 var context = document.querySelector(".context");
 $.getJSON("backup.json", function (data) {
     for (var _i = 0, data_1 = data; _i < data_1.length; _i++) {
